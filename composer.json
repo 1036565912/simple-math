@@ -1,5 +1,5 @@
 {
-    "name": "simple/math-function",
+    "name": "cn-simple/math-function",
     "description": "A simple math function package for a standard build、test process",
     "type": "library",
     "license": "MIT",

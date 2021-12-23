@@ -1,0 +1,27 @@
+{
+    "name": "simple/math-function",
+    "description": "A simple math function package for a standard build、test process",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simple\\MathFunction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chenlin",
+            "email": "1036565912@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "Tests/"
+        }
+    }
+}
